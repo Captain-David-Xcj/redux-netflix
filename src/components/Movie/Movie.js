@@ -47,7 +47,7 @@ class Movie extends React.Component{
                 </div>
                 <Link
                     className={styles.closeButton}
-                    to="/redux-netflix/movies">
+                    to="/redux-netflix/build/movies">
                     ←
                 </Link>
             </div>

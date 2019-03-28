@@ -49,7 +49,7 @@ class Movies extends React.Component {
                     {movies.map((movie, index) => (
                         <Link
                             key={index}
-                            to={`/redux-netflix/movies/${index + 1}`}>
+                            to={`/redux-netflix/build/movies/${index + 1}`}>
                             <div
                                 className={styles.movie}
                                 style={{backgroundImage: `url(${movie.cover})`}}/>
