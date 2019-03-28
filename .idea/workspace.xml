@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9e060397-12e0-4bb0-8fdc-f06a9ce8ddf5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/components/Movie/Movie.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Movie/Movie.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Movies/Movies.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Movies/Movies.js" afterDir="false" />
-    </list>
+    <list default="true" id="9e060397-12e0-4bb0-8fdc-f06a9ce8ddf5" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -259,7 +256,7 @@
       <workItem from="1553654840927" duration="31831000" />
       <workItem from="1553741510860" duration="13013000" />
       <workItem from="1553761434219" duration="284000" />
-      <workItem from="1553762819444" duration="3122000" />
+      <workItem from="1553762819444" duration="3382000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1553756614446</created>
@@ -293,7 +290,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54704000" />
+    <option name="totallyTimeSpent" value="54964000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -306,7 +303,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24966975" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
