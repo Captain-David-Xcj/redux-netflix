@@ -12,9 +12,9 @@ class App extends React.Component{
         return(
                 <div className={styles.app}>
                     <div className={styles.aa}>
-                        <Route path="/movies/:id" component={Movie}/>
+                        <Route path="/redux-netflix/movies/:id" component={Movie}/>
                     </div>
-                    <Route path="/movies" component={Movies}/>
+                    <Route path="/redux-netflix/movies" component={Movies}/>
                 </div>
         )
     }

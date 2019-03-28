@@ -27,11 +27,11 @@ class Movie extends React.Component{
         return (
             <div
                 className={styles.movie}
-                style={{backgroundImage: `linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.625) 100%), url(${movie.cover})`}}
+                style={{backgroundImage: `linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.625) 100%), url(../${movie.cover})`}}
                 >
                 <div
                     className={styles.cover}
-                    style={{backgroundImage: `url(${movie.cover})`}} />
+                    style={{backgroundImage: `url(../${movie.cover})`}} />
                 <div className={styles.description}>
                     <div className={styles.title}>{movie.title}</div>
                     <div className={styles.year}>{movie.year}</div>
@@ -47,7 +47,7 @@ class Movie extends React.Component{
                 </div>
                 <Link
                     className={styles.closeButton}
-                    to="/movies">
+                    to="/redux-netflix/movies">
                     ←
                 </Link>
             </div>

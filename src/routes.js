@@ -11,7 +11,7 @@ import {BrowserRouter, Link} from "react-router-dom";
 //let history=createBrowserHistory()
 export default (
     <BrowserRouter>
-            <Route path="/" component={App}/>
-            <Route exact path="/" render={()=>{return(<Link to="/movies">Click</Link>)}}/>
+        <Route exact path="/redux-netflix" render={()=>{return(<Link to="/redux-netflix/movies">Click</Link>)}}/>
+            <Route path="/redux-netflix" component={App}/>
     </BrowserRouter>
 )
