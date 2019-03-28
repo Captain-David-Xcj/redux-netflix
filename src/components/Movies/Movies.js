@@ -52,7 +52,7 @@ class Movies extends React.Component {
                             to={`/redux-netflix/build/movies/${index + 1}`}>
                             <div
                                 className={styles.movie}
-                                style={{backgroundImage: `url(${movie.cover})`}}/>
+                                style={{backgroundImage: `url(/redux-netflix/build/${movie.cover})`}}/>
                         </Link>
                     ))}
                 </div>
