@@ -50,7 +50,6 @@ class Movies extends React.Component {
                         <Link
                             key={index}
                             to={`/movies/${index + 1}`}>
-                            {movie.title}
                             <div
                                 className={styles.movie}
                                 style={{backgroundImage: `url(${movie.cover})`}}/>

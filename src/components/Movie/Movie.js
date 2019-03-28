@@ -25,12 +25,13 @@ class Movie extends React.Component{
         console.log(this.props)
 
         return (
-            <div  id="fu"
-                className="movie"
+            <div
+                className={styles.movie}
+                style={{backgroundImage: `linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.625) 100%), url(${movie.cover})`}}
                 >
-                <div id="zi"
+                <div
                     className={styles.cover}
-                    style={{backgroundImage: `url(${movie.cover})`,height:'400px',width:'300px'}} />
+                    style={{backgroundImage: `url(${movie.cover})`}} />
                 <div className={styles.description}>
                     <div className={styles.title}>{movie.title}</div>
                     <div className={styles.year}>{movie.year}</div>

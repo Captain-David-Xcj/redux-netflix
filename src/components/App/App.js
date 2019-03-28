@@ -11,8 +11,10 @@ class App extends React.Component{
     render() {
         return(
                 <div className={styles.app}>
-                    <Route exact path="/movies" component={Movies}/>
-                    <Route path="/movies/:id" component={Movie}/>
+                    <div className={styles.aa}>
+                        <Route path="/movies/:id" component={Movie}/>
+                    </div>
+                    <Route path="/movies" component={Movies}/>
                 </div>
         )
     }
